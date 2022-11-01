@@ -15,12 +15,12 @@ require (
 	github.com/gopherjs/gopherjs v0.0.0-20190910122728-9d188e94fb99 // indirect
 	github.com/ipfs/fs-repo-migrations/fs-repo-11-to-12 v1.0.2
 	github.com/ipfs/fs-repo-migrations/tools v0.0.0-20211209222258-754a2dcb82ea
-	github.com/ipfs/go-blockservice v0.2.1
+	github.com/ipfs/go-blockservice v0.3.0
 	github.com/ipfs/go-cid v0.1.0
 	github.com/ipfs/go-ipfs v0.12.2
 	github.com/ipfs/go-ipfs-config v0.18.0
 	github.com/ipfs/go-ipfs-files v0.0.9
-	github.com/ipfs/go-merkledag v0.5.1
+	github.com/ipfs/go-merkledag v0.8.0
 	github.com/ipfs/go-mfs v0.2.1
 	github.com/ipfs/go-unixfs v0.3.1
 	github.com/ipfs/interface-go-ipfs-core v0.5.2
@@ -31,7 +31,7 @@ require (
 	github.com/libp2p/go-yamux v1.4.1
 	github.com/mholt/archiver/v3 v3.5.1-0.20210112195346-074da64920d3
 	github.com/multiformats/go-multiaddr v0.4.1
-	github.com/multiformats/go-multihash v0.1.0
+	github.com/multiformats/go-multihash v0.2.1
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pborman/uuid v1.2.1
 	github.com/pkg/errors v0.9.1
@@ -46,8 +46,8 @@ require (
 	github.com/whyrusleeping/go-logging v0.0.1
 	github.com/willf/bitset v1.1.10 // indirect
 	github.com/willf/bloom v2.0.3+incompatible
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
-	golang.org/x/net v0.0.0-20211005001312-d4b1ae081e3b
+	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
+	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2
 	golang.org/x/sys v0.0.0-20211025112917-711f33c9992c
 	google.golang.org/protobuf v1.27.1
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
