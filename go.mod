@@ -48,7 +48,7 @@ require (
 	github.com/willf/bloom v2.0.3+incompatible
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
 	golang.org/x/net v0.0.0-20211005001312-d4b1ae081e3b
-	golang.org/x/sys v0.0.0-20211025112917-711f33c9992c
+	golang.org/x/sys v0.12.0
 	google.golang.org/protobuf v1.27.1
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce
