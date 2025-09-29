@@ -2,7 +2,7 @@
 # > docker build --tag idena .
 # > docker run --network host --volume ~/.idena/datadir:/home/datadir idena --fast
 
-FROM ubuntu AS builder
+FROM ubuntu:24.10 AS builder
 
 WORKDIR /home
 
@@ -11,7 +11,7 @@ RUN apt-get update && \
 RUN wget https://api.github.com/repos/idena-network/idena-go/releases/latest
 RUN wget -O "./idena" $(jq --raw-output '.assets | map(select(.name | startswith("idena-node-linux"))) | .[0].browser_download_url' "./latest")
 
-FROM ubuntu
+FROM ubuntu:24.10
 
 WORKDIR /home
 
